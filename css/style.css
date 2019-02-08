@@ -1,0 +1,181 @@
+
+
+
+a { 
+    text-decoration: none; 
+
+}
+
+
+textarea {
+    resize:none; 
+ 
+}
+
+.header {
+    position: sticky; 
+    background:white; 
+    width:1000px;
+    margin: 0px auto; 
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+body {
+    margin:0px; 
+    background-image: url("morocco.png");
+}
+
+
+li {
+    display:block; 
+   float: right;
+   padding: 14px 20px 14px 20px; 
+
+   
+}
+
+.left {
+   float:left;
+   font-size: 30px; 
+  
+   background-color: #4aaaa5; 
+   color:white; 
+   text-align: center;
+   padding:10px 20px;
+   height: 40px; 
+   
+     
+}
+
+.middle {
+    background-color: tan; 
+    padding: 50px 0px 100px 0px;  
+    
+}
+
+.background {
+    color:grey; 
+    height: 60px; 
+    width:100%; 
+}
+
+.aboutme {
+   margin: 0px auto; 
+  
+    background-color: #ffffff;
+    width: 960px;
+    font-family: Arial, Helvetica, sans-serif; 
+  
+    line-height: 25px;
+   
+}
+
+p.aboutme {
+    padding: 5px 20px 20px; 
+}
+
+h2.aboutme {
+   padding: 10px 20px 5px 20px; 
+}
+
+
+
+h2 {
+    color: #4aaaa5;
+    font-size: 25px;
+}
+
+
+
+#footer {
+    background-color: #666666;
+    text-align: center; 
+    height: 50px; 
+    border-top: 8px solid #4aaaa5;
+ 
+}
+
+
+figure {
+    background-color: #ffffff;
+    margin: 0px auto; 
+    width: 960px;
+     padding: 10px 20px 30px 20px; 
+}
+
+img {
+    width: 350px !important;
+}
+.column {
+    float: left;
+    width: 35%; 
+    margin: 20px;
+    
+    
+
+  }
+
+figcaption {
+    color:#777777 ; 
+  
+    font-size: 30px; 
+    position: absolute;
+}
+  
+  /* Clearfix (clear floats) */
+  .row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+
+
+#form {
+    width: 100%;
+
+}
+
+
+img#firstimage {
+    float:left;
+    margin: 5px 10px 5px 0px ; 
+}
+
+
+
+
+textarea {
+    width:100%; 
+    height: 50%;
+
+}
+
+
+
+/* sorry couldn't really get it to work! I used the asterik and !important but then it messes up the header */
+
+@media screen and (max-width: 980px) {
+     * {
+      width: 100% !important; 
+     
+    }
+  }
+
+  @media screen and (max-width: 768px) {
+    * {
+      width: 90% !important; 
+    }
+  }
+
+  @media screen and (max-width: 640px) {
+    * {
+      width: 90% !important; 
+    }
+  }
+
+
+
+
+
+
+   
